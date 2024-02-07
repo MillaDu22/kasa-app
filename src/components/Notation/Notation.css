@@ -1,0 +1,16 @@
+.containerNotation {
+    width:100%;
+    display:flex;
+    justify-content: flex-end;
+    position:relative;
+    top: 60px;
+}
+
+@media screen and (max-width:768px) {
+    .containerNotation {
+        justify-content: flex-start;
+        Width:30%;
+        height:18px;
+        top:27px;
+    }
+}

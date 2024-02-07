@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2? family= Montserrat:wght@400;500 & display=swap');
+.sectionInfo {
+    display:flex;
+    flex-direction: column;
+    padding-bottom:60px;
+}
+.rowBoxes1 {
+    width:80%;
+    position:relative;
+    top:30px;
+    margin-left:auto;
+    margin-right:auto;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.leftBox {
+    width:50%;
+    display:flex;
+    flex-direction: column;
+}
+.title {
+    width:100%;
+    position: relative;
+    font-family: 'Montserrat';
+    font-weight:500;
+    font-size:36px;
+    line-height:51px;
+    color:#FF6060;
+}
+.location {
+    Width:100%;
+    font-family:'Montserrat';
+    font-weight: 500;
+    font-size:18px;
+    line-height:25px;
+    color:#FF6060;
+}
+.rightBox {
+    width:45%;
+    display:flex;
+    flex-direction: column;
+}
+.rowBoxes2 {
+    width:82%;
+    margin-left:auto;
+    margin-right:auto;
+    position: relative;
+    margin-top:10%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.boxInfo {
+    height:100%;
+    width:48%;
+}
+.nav {
+    max-height: 25px;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    height: 100%;
+}
+.ulList {
+    width:80%;
+    list-style: none;
+    position:relative;
+    bottom:20px;
+    right: 0%;
+}
+.liList {
+    width:80%;
+    position:relative;
+    margin-top:0px;
+    right:9%;
+    height:25px;
+}
+@media screen and (max-width:768px) {
+    .sectionInfo {
+        width:100%;
+    }
+    .rowBoxes1 {
+        width:96%;
+        top:15px;
+        flex-direction: column;
+    }
+    .title {
+        font-size:18px;
+        line-height: 25.67px;
+    }
+    .location {
+        font-size:14px;
+        line-height:20px;
+    }
+    .rowBoxes2 {
+        width:100%;
+        flex-direction: column;
+        left:0%;
+        margin-top:0%;
+    }
+    .boxInfo {
+        width:100%;
+        margin-left:0;
+        margin-right: 0;
+    }
+    .leftBox {
+        width:100%;
+    }
+    .rightBox {
+        width:100%;
+        flex-direction: row-reverse;
+        position:relative;
+        top:0%;
+        justify-content: space-between;
+    }
+    .ulList {
+        bottom:13px;
+    }
+}
