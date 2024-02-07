@@ -1,0 +1,38 @@
+.navHead {
+    position: absolute;
+    padding-top:4%;
+    left:65%;
+    display:flex;
+    flex-direction: row;
+    width: 24%;
+}
+
+.linkAccueil, .linkAPropos {
+    color:#FF6060;
+    text-align: right;
+    list-style: none;
+    width:70%;
+    font-family:'Monserrat';
+    font-weight: 500;
+    font-size:24px;
+    text-decoration: none;
+}
+.linkAccueil {
+    padding-right:5%;
+}
+.linkAccueil:hover, .linkAPropos:hover {
+    text-decoration: underline;
+}
+@media screen and (max-width:768px) {
+    .navHead {
+        width:40%;
+        top:3%;
+        left:59%;
+    }
+
+    .linkAccueil, .linkAPropos {
+        font-size:12px;
+        line-height:17.11px;
+        width:40%;
+    }
+}

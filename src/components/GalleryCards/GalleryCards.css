@@ -1,0 +1,26 @@
+.backCards {
+    position: relative;
+    margin-top:43px;
+    margin-bottom:13px;
+    margin-left:auto;
+    margin-right:auto;
+    padding-top: 56px;
+    padding-bottom: 0%;
+    padding-left:4.5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 76%;
+    background-color:#E5E5E5;
+    border-radius:25px;
+}
+
+@media screen and (max-width:768px) {
+    .backCards {
+        width:96%;
+        flex-direction:column;
+        padding:0;
+        background: white;
+    }
+}
