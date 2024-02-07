@@ -1,5 +1,5 @@
 import './Banner.css';
-import ImgBanner from '../../Assets/images/cestpaslaplayadelacostadelsol.png'
+import ImgBanner from '../../Assets/images/cestpaslaplayadelacostadelsol.png';
 
 function Banner() {
     return (
