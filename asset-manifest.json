@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/kasa-app/static/css/main.1a151227.css",
+    "main.js": "/kasa-app/static/js/main.7c82bc8e.js",
+    "static/js/592.32f335ed.chunk.js": "/kasa-app/static/js/592.32f335ed.chunk.js",
+    "static/media/imgBannerAPropos.png": "/kasa-app/static/media/imgBannerAPropos.99f7812e0a8dc0973adc.png",
+    "static/media/cestpaslaplayadelacostadelsol.png": "/kasa-app/static/media/cestpaslaplayadelacostadelsol.0b3373d85749b68829c5.png",
+    "index.html": "/kasa-app/index.html",
+    "main.1a151227.css.map": "/kasa-app/static/css/main.1a151227.css.map",
+    "main.7c82bc8e.js.map": "/kasa-app/static/js/main.7c82bc8e.js.map",
+    "592.32f335ed.chunk.js.map": "/kasa-app/static/js/592.32f335ed.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1a151227.css",
+    "static/js/main.7c82bc8e.js"
+  ]
+}
