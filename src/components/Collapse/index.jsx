@@ -3,8 +3,6 @@ import chevron from "../../Assets/images/chevron.png";
 import '../Collapse/Collapse.css';
 import '../Collapse/Collapses.css';
 
-
-
 const Collapse =({title, content}) => { 
     const [isOpen , setIsOpen] = useState(false);/*état du toggle par défaut*/
     const display = () => {
