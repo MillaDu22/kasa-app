@@ -1,0 +1,133 @@
+.collapsesAbout {
+  display: flex;
+  width: 80%;
+  position: relative;
+  margin-top: 19px;
+  margin-left: 5%;
+  right: 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.wrap {
+  display: block;
+  width: 100%;
+  position: relative;
+  margin-bottom: 44px;
+}
+
+.toggle {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  display: none;
+}
+
+.labelToggle {
+  display: flex;
+  align-items: center;
+  background-color: #FF6060;
+  border-radius: 5px;
+  width: 100%;
+  height: 47px;
+  cursor: pointer;
+  transition: all 0.25s ease-out;
+}
+
+.labelTitle {
+  width: 96%;
+  height: 47px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 34px;
+  position: relative;
+  left: 2%;
+  right: 2%;
+}
+
+.labelToggle::before {
+  content: "";
+  transform: translateY(-2px);
+  transition: transform 0.2s ease-out;
+}
+
+.collapseText {
+  background-color: #F7F7F7;
+  color: #FF6060;
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 34px;
+  width: 96%;
+  position: relative;
+  padding-left: 2%;
+  padding-right: 2%;
+  border-radius: 0px 0px 5px 5px;
+}
+
+.toggle:checked + .labelToggle + .collapseText {
+  max-height: 100vh;
+}
+
+.toggle:checked + .labelToggle::before {
+  transform: rotate 180deg;
+}
+
+.chevron-up, .chevron-down {
+  position: relative;
+  right: 10px;
+  width: 24px;
+  height: 13.71px;
+  cursor: pointer;
+}
+
+.chevron-up.true {
+  transform: rotate(180deg);
+}
+
+.chevron-up:active {
+  height: 13.71px;
+  width: 24px;
+}
+
+@media screen and (max-width: 768px) {
+  .collapsesAbout {
+    width: 98%;
+    margin-left: 2%;
+    right: 1%;
+  }
+  .labelToggle {
+    width: 100%;
+  }
+  .labelTitle {
+    width: 90%;
+    font-size: 13px;
+    line-height: 18.5;
+  }
+  .collapseText {
+    font-size: 12px;
+    line-height: 17.1px;
+  }
+  .labelTitle {
+    margin-left: 2%;
+  }
+  .chevron {
+    position: relative;
+    right: 10px;
+    width: 16px;
+    height: 9.14px;
+  }
+  .chevron:active {
+    transform: rotate(180deg);
+    height: 7.9px;
+    width: 13.81px;
+  }
+}/*# sourceMappingURL=Collapses.css.map */
