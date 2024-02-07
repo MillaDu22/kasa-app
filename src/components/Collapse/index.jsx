@@ -10,8 +10,8 @@ const Collapse =({title, content}) => {
     };
     return(
         <div className="wrapInfo vrap" >
-            <input type="checkbox" id="collapse" className="toggleInfo" />
-            <label htmlFor="collapse" className="labelToggleInfo">
+            <input type="checkbox" id= { title } className="toggleInfo" />
+            <label htmlFor= { title } className="labelToggleInfo">
                 <p className=" labelTitleInfo" onClick ={display}>{title}
                     {isOpen ? (<img src={chevron} className="chevron-up" alt="up" />) :
                     (<img src={chevron} className="chevron-down"alt="down"/>)}

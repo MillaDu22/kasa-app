@@ -9,7 +9,7 @@ function SectionError () {
                 <img src = {ErrorPng} alt="number" className="errorNumber" />
             </div>
             <div className ="divOups">
-                <p className= "pOups">Oups! La page que vous demandez n'existe pas.</p>
+                <h2 className= "pOups">Oups! La page que vous demandez n'existe pas.</h2>
             </div>
             <div className ="errorReturnHome">
             <Link className="linkReturnHome" to="/" exact="true">Retourner sur la page d'accueil</Link>

@@ -29,7 +29,7 @@
   font-weight: 500;
   font-size: 36px;
   line-height: 51px;
-  color: #FF6060;
+  color: rgba(252, 86, 86, 0.9411764706);
 }
 
 .location {
@@ -38,7 +38,7 @@
   font-weight: 500;
   font-size: 18px;
   line-height: 25px;
-  color: #FF6060;
+  color: rgba(252, 86, 86, 0.9411764706);
 }
 
 .rightBox {

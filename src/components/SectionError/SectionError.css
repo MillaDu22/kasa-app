@@ -23,7 +23,7 @@
   font-size: 36px;
   line-height: 51.34px;
   font-weight: 500;
-  color: #FF6060;
+  color: rgba(252, 86, 86, 0.9411764706);
   width: 100%;
   text-align: center;
   position: relative;
@@ -41,7 +41,7 @@
   text-align: center;
   font-family: "Montserrat";
   font-size: 18px;
-  color: #FF6060;
+  color: rgba(252, 86, 86, 0.9411764706);
   font-weight: 500;
   line-height: 25.67px;
 }
