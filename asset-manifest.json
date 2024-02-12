@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/kasa-app/static/css/main.a846d2ae.css",
-    "main.js": "/kasa-app/static/js/main.165ae92c.js",
+    "main.css": "/kasa-app/static/css/main.67da01ca.css",
+    "main.js": "/kasa-app/static/js/main.dcf40eeb.js",
     "static/js/592.32f335ed.chunk.js": "/kasa-app/static/js/592.32f335ed.chunk.js",
     "static/media/imgBannerAPropos.png": "/kasa-app/static/media/imgBannerAPropos.99f7812e0a8dc0973adc.png",
     "static/media/cestpaslaplayadelacostadelsol.png": "/kasa-app/static/media/cestpaslaplayadelacostadelsol.0b3373d85749b68829c5.png",
     "index.html": "/kasa-app/index.html",
-    "main.a846d2ae.css.map": "/kasa-app/static/css/main.a846d2ae.css.map",
-    "main.165ae92c.js.map": "/kasa-app/static/js/main.165ae92c.js.map",
+    "main.67da01ca.css.map": "/kasa-app/static/css/main.67da01ca.css.map",
+    "main.dcf40eeb.js.map": "/kasa-app/static/js/main.dcf40eeb.js.map",
     "592.32f335ed.chunk.js.map": "/kasa-app/static/js/592.32f335ed.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a846d2ae.css",
-    "static/js/main.165ae92c.js"
+    "static/css/main.67da01ca.css",
+    "static/js/main.dcf40eeb.js"
   ]
 }
